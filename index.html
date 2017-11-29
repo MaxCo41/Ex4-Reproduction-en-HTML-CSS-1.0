@@ -3,134 +3,153 @@
 
 <head>
   <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
   <title>Reproduction OnePager</title>
 </head>
 
 <body>
+
+  <!--début nav-->
+  <nav>
+    <div class="name">Onepager</div>
+    <div class="menu">
+      <a>Overview</a>
+      <a>Highligths</a>
+      <a>Features</a>
+      <a>Download</a>
+    </div>
+  </nav>
+  <!--fin nav-->
+
+  <!-- début header section-->
   <header>
-    <nav>
-      <span>ONEPAGER</span>
-      <ul>
-        <li>Overview</li>
-        <li>Highligths</li>
-        <li>Features</li>
-        <li>Download</li>
-      </ul>
-    </nav>
+    <h1>Onepager</h1>
+    <h2>A Simple One Page Modular Theme for Grav</h2>
   </header>
-
+  <!-- fin header section-->
   <main>
-    <section>
-      <!--première section-->
-      <h1>ONEPAGER</h1>
-      <h2>A Simple One Page Modular Theme for Grav</h2>
-    </section>
-    <!--première section-->
-
-    <section>
-      <!--deuxième section-->
+    <!-- début première section-->
+    <section class="overview">
       <h3>Built on top of Greatness</h3>
       <h4>Four core tenants keep Grav focused</h4>
-      <div>
-        <i class="fa fa-fighter-jet" aria-hidden="true"></i>
-        <h5>Crazy Fast</h5>
-        <p>Performance is just an
-          <br>aftertought we baked it in from
-          <br>the start!
-        </p>
-      </div>
-      <div>
-        <i class="fa fa-database" aria-hidden="true"></i>
-        <h5>Easy to build</h5>
-        <p>Simple text files means Grav is trivial
-          <br>to install and easy to maintain.
-        </p>
-      </div>
-      <div>
-        <i class="fa fa-cubes" aria-hidden="true"></i>
-        <h5>Super Flexible</h5>
-        <p>From the ground up, with many
-          <br>plugin hooks, Grav is extremely
-          <br>extensible
-        </p>
-      </div>
-      <div>
-        <h5>Awesome Technology</h5>
-        <p>Grav employs best-in-class
-          <br>technologies such as Twig.
-          <br>Markdown & Yaml
+      <div class="overview-box">
+        <div>
+          <i class="fa fa-fighter-jet fa-2x" style="color:#2cc2f7" aria-hidden="true"></i>
+          <h5>Crazy Fast</h5>
+          <p>Performance is just an
+            <br>aftertought we baked it in from
+            <br>the start!
+          </p>
+        </div>
+        <div>
+          <i class="fa fa-database fa-2x" style="color:#2cc2f7" aria-hidden="true"></i>
+          <h5>Easy to build</h5>
+          <p>Simple text files means Grav is trivial
+            <br>to install and easy to maintain.
+          </p>
+        </div>
+        <div>
+          <i class="fa fa-cubes fa-2x" style="color:#2cc2f7" aria-hidden="true"></i>
+          <h5>Super Flexible</h5>
+          <p>From the ground up, with many
+            <br>plugin hooks, Grav is extremely
+            <br>extensible
+          </p>
+        </div>
+        <div>
+          <i class="fa fa-puzzle-piece fa-2x" style="color:#2cc2f7" aria-hidden="true"></i>
+          <h5>Awesome Technology</h5>
+          <p>Grav employs best-in-class
+            <br>technologies such as Twig.
+            <br>Markdown & Yaml
+        </div>
       </div>
     </section>
-    <!--fin deuxième section-->
+    <!--fin première section-->
 
-    <section>
-      <!--début troisième section-->
-      <div>
+    <!--début deuxième section-->
+    <section class="deux">
+      <div class="deux-txt">
         <h3>Fast, Extensible, Open Source!</h3>
         <h4>Grav is a modern open source flat-file CMS</h4>
         <p>Grav is a modern open source flat-file CMS. Lorem Ipsum dolor sit amet,
           <br>consectetur adipiscing elit. Suspendisse suscipit ultrices ligula eget
           <br>accumsan. Sed egestas augue a risus semper pretium non sit amet odio.
-          <img src="astronaute.jpg" alt="Image-astronaute">
+        </p>
+      </div>
+      <div id="deux-img">
+        <i class="fa fa-grav fa-fw" aria-hidden="true"></i>
+      </div>
+    </section>
+    <!--fin deuxième section-->
+
+    <!-- début troisième section-->
+    <section>
+      <div class="trois-txt">
+        <h3>Stuffed full of Amazing Features</h3>
+        <h4>This is a non-inclusive smattering of them</h4>
+      </div>
+      <div class="icon">
+        <div><i class="fa fa-text-height fa-2x" style="color:#2cc2f7" aria-hidden="true"></i>
+          <p>Markdown Syntax</p>
+        </div>
+        <div><i class="fa fa-code fa-2x" style="color:#2cc2f7" aria-hidden="true"></i>
+          <p>Twig Templating</p>
+        </div>
+        <div><i class="fa fa-rocket fa-2x" style="color:#2cc2f7" aria-hidden="true"></i>
+          <p>Smart Caching</p>
+        </div>
+        <div><i class="fa fa-tags fa-2x" style="color:#2cc2f7" aria-hidden="true"></i>
+          <p>Flexible Taxonomies</p>
+        </div>
+        <div><i class="fa fa-cloud-upload fa-2x" style="color:#2cc2f7" aria-hidden="true"></i>
+          <p>Simple Install</p>
+        </div>
+        <div><i class="fa fa-cogs fa-2x" style="color:#2cc2f7" aria-hidden="true"></i>
+          <p>Powerful Plugins</p>
+        </div>
+        <div><i class="fa fa-tachometer fa-2x" style="color:#2cc2f7" aria-hidden="true"></i>
+          <p>intuitive UI</p>
+        </div>
+        <div><i class="fa fa-file-text-o fa-2x" style="color:#2cc2f7" aria-hidden="true"></i>
+          <p>File Based</p>
+        </div>
+        <div><i class="fa fa-bookmark fa-2x" style="color:#2cc2f7" aria-hidden="true"></i>
+          <p>Documentation</p>
+        </div>
+        <div><i class="fa fa-github fa-2x" style="color:#2cc2f7" aria-hidden="true"></i>
+          <p>GitHub</p>
+        </div>
+        <div><i class="fa fa-html5 fa-2x" style="color:#2cc2f7" aria-hidden="true"></i>
+          <p>Responsive Design</p>
+        </div>
+        <div><i class="fa fa-heart fa-2x" style="color:#2cc2f7" aria-hidden="true"></i>
+          <p>Awesomazing</p>
+        </div>
       </div>
     </section>
     <!--fin troisième section-->
+
+    <!--début 4ème section-->
     <section>
-      <div>
-        <h3>Stuffed full of Amazing Features</h3>
-        <h4>This is a non-inclusive smattering of them</h4>
-        <ul>
-          <li><i class="fa fa-text-height" aria-hidden="true"></i>
-            <p>Markdown Syntax</p>
-          </li>
-          <li><i class="fa fa-code" aria-hidden="true"></i>
-            <p>Twig Templating</p>
-          </li>
-          <li><i class="fa fa-rocket" aria-hidden="true"></i>
-            <p>Smart Caching</p>
-          </li>
-          <li><i class="fa fa-tags" aria-hidden="true"></i>
-            <p>Flexible Taxonomies</p>
-          </li>
-          <li><i class="fa fa-cloud-upload" aria-hidden="true"></i>
-            <p>Simple Install</p>
-          </li>
-          <li><i class="fa fa-cogs" aria-hidden="true"></i>
-            <p>Powerful Plugins</p>
-          </li>
-          <li><i class="fa fa-tachometer" aria-hidden="true"></i>
-            <p>intuitive UI</p>
-          </li>
-          <li><i class="fa fa-file-text-o" aria-hidden="true"></i>
-            <p>File Based</p>
-          </li>
-          <li><i class="fa fa-bookmark" aria-hidden="true"></i>
-            <p>Documentation</p>
-          </li>
-          <li><i class="fa fa-github" aria-hidden="true"></i>
-            <p>GitHub</p>
-          </li>
-          <li><i class="fa fa-html5" aria-hidden="true"></i>
-            <p>Responsive Design</p>
-          </li>
-          <li><i class="fa fa-heart" aria-hidden="true"></i>
-            <p>Awesomazing</p>
-          </li>
+      <div class="end">
+        <h6>Get Grav</h6>
+        <button class="button" type="button">Download</button>
       </div>
     </section>
     <!--fin 4ème section-->
-    <section>
-      <div>
-
+    <!--début footer-->
+    <footer>One Pager Grav Theme
+    </footer>
+    <!-- fin footer-->
 
 
 
 
 
   </main>
-
 </body>
 
 </html>
